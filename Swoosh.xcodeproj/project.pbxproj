@@ -13,6 +13,7 @@
 		36E9EDB8242A9A1E00F66C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E9EDB6242A9A1E00F66C49 /* Main.storyboard */; };
 		36E9EDBA242A9A2000F66C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E9EDB9242A9A2000F66C49 /* Assets.xcassets */; };
 		36E9EDBD242A9A2000F66C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E9EDBB242A9A2000F66C49 /* LaunchScreen.storyboard */; };
+		36EC3CC9242AA7A40011E254 /* BoraderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC3CC8242AA7A40011E254 /* BoraderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		36E9EDB9242A9A2000F66C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36E9EDBC242A9A2000F66C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36E9EDBE242A9A2000F66C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EC3CC8242AA7A40011E254 /* BoraderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoraderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		36E9EDA4242A9A1D00F66C49 = {
 			isa = PBXGroup;
 			children = (
+				36EC3CC7242AA7220011E254 /* VIEWS */,
 				36E9EDAF242A9A1E00F66C49 /* Swoosh */,
 				36E9EDAE242A9A1E00F66C49 /* Products */,
 			);
@@ -65,6 +68,14 @@
 				36E9EDBE242A9A2000F66C49 /* Info.plist */,
 			);
 			path = Swoosh;
+			sourceTree = "<group>";
+		};
+		36EC3CC7242AA7220011E254 /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				36EC3CC8242AA7A40011E254 /* BoraderButton.swift */,
+			);
+			path = VIEWS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36E9EDB5242A9A1E00F66C49 /* ViewController.swift in Sources */,
+				36EC3CC9242AA7A40011E254 /* BoraderButton.swift in Sources */,
 				36E9EDB1242A9A1E00F66C49 /* AppDelegate.swift in Sources */,
 				36E9EDB3242A9A1E00F66C49 /* SceneDelegate.swift in Sources */,
 			);
